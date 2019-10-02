@@ -10,6 +10,17 @@ namespace DatabaseFirst
     {
         static void Main(string[] args)
         {
+            var conext = new DatabaseFirstDemoEntities();
+            var table = new table_1()
+            {
+                Body = "body",
+                DatePublished = "ds",
+                Title = "title",
+                PostID= 1 
+
+            };
+            conext.table_1.Add(table);
+            conext.SaveChanges(); 
         }
     }
 }
