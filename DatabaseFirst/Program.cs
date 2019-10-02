@@ -10,7 +10,7 @@ namespace DatabaseFirst
     {
         static void Main(string[] args)
         {
-            var conext = new DatabaseFirstDemoEntities();
+            var conext = new DatabaseFirstDemoEntities(); 
             var table = new table_1()
             {
                 Body = "body",
